@@ -660,6 +660,21 @@ section {
   background: rgba(254, 185, 0, 0.8);
 }
 
+.get-started .php-email-form .whatsapp-button {
+  display: inline-block; /* Para permitir padding */
+  background-color: #25D366; /* Cor característica do WhatsApp */
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none; /* Remover sublinhado do link */
+  border-radius: 4px;
+  transition: 0.4s;
+  font-weight: bold; /* Opcional, para tornar o texto mais proeminente */
+  margin-top: 15px; /* Espaço entre os botões, ajuste conforme necessário */
+}
+.get-started .php-email-form .whatsapp-button:hover {
+  background-color: #22c15e; /* Um pouco mais escuro que o padrão, para efeito hover */
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1398,6 +1413,17 @@ section {
 /*--------------------------------------------------------------
 # Projet Details Section
 --------------------------------------------------------------*/
+
+.projects {
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 0 15px 30px 0;
+  min-height: 200px;
+  box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1);
+  position: relative;
+  background: rgba(82, 86, 94, 0.1);
+}
+
 .project-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1630,6 +1656,9 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact{
+  background-color:  rgba(82, 86, 94, 0.1);
+}
 .contact .info-item {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
